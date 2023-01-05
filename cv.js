@@ -12,7 +12,7 @@ const findMyState = () => {
             .then(res => res.json())
             .then(data => {
                 status.textContect = data.city + ", " + data.principalSubdivision + " \n" + data.countryName;
-                console.log(status.textContent);
+                //console.log(status.textContent);
             })
     }
     const error = () => {
