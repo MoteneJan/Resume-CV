@@ -33,6 +33,12 @@
         <form id="search-form" class="animate__fadeIn">
             <div class="loaderBox animate__fadeIn d-flex justify-content-center align-items-center">
                 <div id="error-box" class="errorBox d-none alert position-absolute" role="alert"></div>
+                <div>
+                    <p class="d-flex align-items-baseline font-weight-lighter mb-1">
+                        <img width="10" height="15" src="location-pin.png" class="mr-1" />
+                        <span id="forecast-card-location"></span>
+                    </p>
+                </div>
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="54px" height="60px" viewBox="0 0 24 30" xml:space="preserve">
                         <rect x="0" y="0" width="3" height="10" fill="#333">
                             <animateTransform
@@ -74,12 +80,7 @@
                 <h5 id="forecast-card-description" class="font-weight-lighter"></h5>
                 <h2 id="forecast-card-weekday" class="font-weight-bold mb-1"></h2>
                 <p id="forecast-card-date" class="font-weight-lighter mb-0"></p>
-                <div>
-                    <p class="d-flex align-items-baseline font-weight-lighter mb-1">
-                        <img width="10" height="15" src="location-pin.png" class="mr-1" />
-                        <span id="forecast-card-location"></span>
-                    </p>
-                </div>
+
 
             </div>
         </form>
