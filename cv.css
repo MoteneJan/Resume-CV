@@ -313,6 +313,9 @@
         .interest ul {
             grid-template-columns: repeat(1, 1fr);
         }
+        .about .signup-link {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
     
     .skills .box {
